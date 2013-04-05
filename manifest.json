@@ -11,7 +11,7 @@
     "128": "images/icon128.png" },
   "content_scripts":[
     {
-  "matches": ["http://www.hulu.com/watch/*"],
+  "matches": ["http://www.hulu.com/*"],
   "js": ["jquery.min.js", "script.js"]
     }
   ],
