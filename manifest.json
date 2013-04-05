@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Skip Hulu Ads (Sort of)",
+  "description": "This extension warns you when Hulu ads are over",
+  "version": "1.2",
+
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png" },
+  "content_scripts":[
+    {
+  "matches": ["http://www.hulu.com/watch/*"],
+  "js": ["jquery.min.js", "script.js"]
+    }
+  ],
+  "web_accessible_resources": ["images/hourglass.png"]
+}
